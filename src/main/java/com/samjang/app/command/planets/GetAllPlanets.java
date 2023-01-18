@@ -20,8 +20,6 @@ public class GetAllPlanets implements Command {
     public void execute(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         List<Planet> planetList = dao.getAll();
-        if (planetList.isEmpty())
-            response.sendRedirect("/WEB-INF/error.jsp");
         request.setAttribute("planetList", planetList);
         RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/planet_list.jsp");
         dispatcher.forward(request, response);
