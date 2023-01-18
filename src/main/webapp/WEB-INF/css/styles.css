@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+.card{
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card-header h3{
+    color: white;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-top: 10px;
+    margin-left: 4px;
+    color: #faeba0;
+}
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	background-color: #333;
+	background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f7dc7c9-c41e-4cee-8e46-d7a0ffbcf5ab/daaw2qu-dce7d441-9388-4d4f-819f-d31bd7fe35f7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzlmN2RjN2M5LWM0MWUtNGNlZS04ZTQ2LWQ3YTBmZmJjZjVhYlwvZGFhdzJxdS1kY2U3ZDQ0MS05Mzg4LTRkNGYtODE5Zi1kMzFiZDdmZTM1ZjcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.t9fgYD-eGm0GrBQzzpDPuGdAbAmOe_9m4EaeeU6SmrI')
+}
+
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.features img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
